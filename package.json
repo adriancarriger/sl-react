@@ -2,6 +2,7 @@
   "name": "sl-react",
   "version": "1.0.0",
   "devDependencies": {
+    "netlify-cli": "^1.2.2",
     "react-scripts": "1.1.4"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy"
   }
 }

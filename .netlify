@@ -1,0 +1,12 @@
+{
+  "site_id": "e75ce961-0851-4b90-ad71-8ea40bd5d5ca",
+  "path": "build",
+  "staging": {
+    "site_id": "e75ce961-0851-4b90-ad71-8ea40bd5d5ca",
+    "path": "build"
+  },
+  "production": {
+    "path": "build",
+    "site_id": "281f3eb3-1f56-4012-af9d-5b554c7ea0b8"
+  }
+}
