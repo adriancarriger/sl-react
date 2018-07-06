@@ -13,10 +13,10 @@ echo "{\"access_token\":\"$NETLIFY_CLI_TOKEN\"}" > ~/.netlify/config
 
 if [[ $CIRCLE_BRANCH == "develop" ]]; then
   REACT_APP_SERVER_URI="$SERVER_URI_BASE/staging" yarn run build
-  yarn run deploy -e staging
+  yarn run deploy
 fi
 
 if [[ $CIRCLE_BRANCH == "master" ]]; then
   REACT_APP_SERVER_URI="$SERVER_URI_BASE/production" yarn run build
-  yarn run deploy
+  yarn run deploy -e production
 fi
